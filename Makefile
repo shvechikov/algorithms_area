@@ -3,4 +3,4 @@
 	./.env/bin/pip install pytest
 
 test: .env
-	./.env/bin/pytest tests.py
+	./.env/bin/pytest --duration=20 tests.py
